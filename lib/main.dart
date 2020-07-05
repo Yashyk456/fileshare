@@ -3,6 +3,7 @@ import 'package:flutter/services.dart';
 
 import './pages/home_page.dart';
 import './pages/send_page.dart';
+import './pages/search_device_page.dart';
 import './pages/receive_page.dart';
 
 void main() {
@@ -23,6 +24,7 @@ class MyApp extends StatelessWidget {
       routes: {
         SendPage.routeName: (context) => SendPage(),
         ReceivePage.routeName: (context) => ReceivePage(),
+        SearchDevicePage.routeName: (context) => SearchDevicePage(),
       },
     );
   }

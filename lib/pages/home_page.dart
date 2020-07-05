@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../pages/send_page.dart';
 import '../pages/receive_page.dart';
+import '../pages/search_device_page.dart';
 import '../widget/button.dart';
 
 class HomePage extends StatelessWidget {
@@ -123,7 +124,7 @@ class HomePage extends StatelessWidget {
                   MyButton(
                     title: 'RECEIVE',
                     color: Colors.green[700],
-                    routeName: ReceivePage.routeName,
+                    routeName: SearchDevicePage.routeName,
                   ),
                 ],
               ),
